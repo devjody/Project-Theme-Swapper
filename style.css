@@ -1,0 +1,56 @@
+:root {
+  --font-sm: calc(10px + 0.8vw);
+  --font-md: calc(14px + 1vw);
+  --font-lg: calc(18px + 1.2vw);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Open Sans;
+  font-size: var(--font-md);
+  color: rgb(30, 30, 30);
+  width: 100vw;
+  min-height: 100vh;
+}
+header {
+  background: rgb(255, 245, 157);
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 5vh;
+}
+header img {
+  max-width: 300px;
+}
+
+.theme-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  min-height: 85vh;
+}
+.theme {
+  text-align: center;
+  cursor: pointer;
+}
+
+.one {
+  background: #026f90;
+  min-width: 3vw;
+  width: 91vw;
+}
+.two {
+  background: #028090;
+  min-width: 3vw;
+}
+.three {
+  background: #00a896;
+  min-width: 3vw;
+}
+.four {
+  background: #02c39a;
+  min-width: 3vw;
+}
